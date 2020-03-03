@@ -1,0 +1,33 @@
+Valid Username Regular Expression
+
+Input Format
+
+The first line of input contains an integer n, describing the total number of 
+usernames. Each of the next n lines contains a string describing the username. T
+he locked stub code reads the inputs and validates the username
+
+Output Format
+
+For each of the usernames, the locked stub code prints Valid if the username 
+is valid; otherwise Invalid each on a new line.
+
+Sample Input 0
+8
+Julia
+Samantha
+Samantha_21
+1Samantha
+Samantha?10_2A
+JuliaZ007
+Julia@007
+_Julia007
+
+Sample Output 0
+Invalid
+Valid
+Valid
+Invalid
+Invalid
+Valid
+Invalid
+Invalid
